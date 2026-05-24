@@ -5,4 +5,6 @@
 	(lib (name "Ideal_Diode") (type "KiCad") (uri "${KIPRJMOD}/Ideal_Diode.kicad_sym") (options "") (descr ""))
 	(lib (name "CMOS_Inverter") (type "KiCad") (uri "${KIPRJMOD}/CMOS_Inverter.kicad_sym") (options "") (descr ""))
 	(lib (name "Batt_Charger") (type "KiCad") (uri "${KIPRJMOD}/Batt_Charger.kicad_sym") (options "") (descr ""))
+	(lib (name "BMS") (type "KiCad") (uri "${KIPRJMOD}/BMS.kicad_sym") (options "") (descr ""))
+	(lib (name "USBPD") (type "KiCad") (uri "${KIPRJMOD}/USBPD.kicad_sym") (options "") (descr ""))
 )

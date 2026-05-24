@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [],
@@ -477,7 +477,9 @@
       "Buck_TPS54620",
       "Ideal_Diode",
       "CMOS_Inverter",
-      "Batt_Charger"
+      "Batt_Charger",
+      "BMS",
+      "USBPD"
     ]
   },
   "meta": {
@@ -641,7 +643,7 @@
         "uuid": "b0254e12-8cc0-427f-8cea-8f6ec8f66525"
       }
     ],
-    "used_designators": "#PWR1-22,R1-17,C1-18,U1-10,L1-2",
+    "used_designators": "#PWR24,#PWR42",
     "variants": []
   },
   "sheets": [
@@ -664,6 +666,18 @@
     [
       "f5ea9b6e-a2be-422f-a375-4b3e69d32159",
       "Ideal_Diode1"
+    ],
+    [
+      "38d381d8-c9fa-4a62-83e7-83c68fd35862",
+      "BMS"
+    ],
+    [
+      "da3152ce-e99b-41cb-8d30-a5dc30414d8e",
+      "Batt Charger"
+    ],
+    [
+      "9458fdc5-5d38-43b0-a1dc-dc52d74391b1",
+      "USBPD"
     ]
   ],
   "text_variables": {},

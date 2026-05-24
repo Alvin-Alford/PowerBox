@@ -3102,7 +3102,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "44uF"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3227,7 +3227,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "47nF"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3237,7 +3237,7 @@
 				)
 			)
 		)
-		(property "Footprint" "testfoot:47nFCap"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0.254 0 0)
 			(show_name no)
 			(do_not_autoplace no)
