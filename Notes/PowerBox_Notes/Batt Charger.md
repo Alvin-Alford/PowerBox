@@ -1,0 +1,1 @@
+1. Power Supply: https://www.lcsc.com/product-detail/C2847000.html?spm=wm.fly.bg.9.xh___wm.fly.dhl.mly.9-8-29&lcsc_vid=TgRaXwYFFFkLVFNTElcNVVYEQFgIAQICFlZWV1ZUFQQxVlNRTlRXVFdTRFVYXzsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D

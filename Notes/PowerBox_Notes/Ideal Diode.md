@@ -1,0 +1,3 @@
+1. PMOS: https://www.lcsc.com/product-detail/C154901.html?spm=wm.fly.bg.10.xh___wm.mly.dhl.mly.5-7-1-2&lcsc_vid=TgRaXwYFFFkLVFNTElcNVVYEQFgIAQICFlZWV1ZUFQQxVlNRTlRXVFdTRFVYXzsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D
+2. PNP: https://www.lcsc.com/product-detail/C53444.html?spm=wm.fly.bg.0.xh___wm.fly.tp.3.ml&lcsc_vid=TgRaXwYFFFkLVFNTElcNVVYEQFgIAQICFlZWV1ZUFQQxVlNRTlRXVFdTRFVYXzsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D
+3. 

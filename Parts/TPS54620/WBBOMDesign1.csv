@@ -1,0 +1,16 @@
+﻿Part,Manufacturer,Part Number,Quantity,Price ($),Footprint (mm²),Description
+Rcomp,Vishay-Dale,CRCW04024K02FKED,1,0.01,3,Resistance: 4.02 kΩ  Tolerance: 1.0%  Power: 63 mW  
+U1,Texas Instruments,TPS54620RHLR,1,2.374,21.62,
+Rent,Vishay-Dale,CRCW0402102KFKED,1,0.01,3,Resistance: 102 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Renb,Yageo,RC0201FR-0736K5L,1,0.01,2.08,Resistance: 36.5 kΩ  Tolerance: 1.0%  Power: 50 mW  
+Cin,MuRata,GRM31CR71H475KA12L,3,0.1,10.92,Cap: 4.7 µF  Total Derated Cap: 10 µF  VDC: 50 V  ESR: 3 mΩ  Package: 1206  
+Css,Samsung Electro-Mechanics,CL21C222JBFNNNE,1,0.02,6.75,Cap: 2.2 nF  Total Derated Cap: 2.2 nF  VDC: 50 V  ESR: 0 Ω  Package: 0805  
+Rfbb,Yageo,RC0201FR-0710KL,1,0.01,2.08,Resistance: 10 kΩ  Tolerance: 1.0%  Power: 50 mW  
+Cout,MuRata,GRM32ER61C476KE15L,1,0.17,14.7,Cap: 47 µF  Total Derated Cap: 32 µF  VDC: 16 V  ESR: 3.04 mΩ  Package: 1210  
+Rfbt,Vishay-Dale,CRCW040252K3FKED,1,0.01,3,Resistance: 52.3 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Cboot,AVX,08053C104KAT2A,1,0.01,6.75,Cap: 100 nF  Total Derated Cap: 100 nF  VDC: 25 V  ESR: 280 mΩ  Package: 0805  
+L1,NIC Components,NPI52P3R3MTRF,1,0.5482,444.63,L: 3.3 µH  DCR: 14 mΩ  IDC: 10 A  
+Ccomp,Kemet,C1812C183J5GACTU,1,0.71,23.1,Cap: 18 nF  Total Derated Cap: 18 nF  VDC: 50 V  ESR: 0 Ω  Package: 1812  
+Rt,Vishay-Dale,CRCW040253K6FKED,1,0.01,3,Resistance: 53.6 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Cinx,Taiyo Yuden,MSAST21GAB5475MTNA01,1,0.03223,6.75,Cap: 4.7 µF  Total Derated Cap: 4.7 µF  VDC: 25 V  ESR: 8.21 mΩ  Package: 0805  
+Ccomp2,Kemet,C0402C300J5GACTU,1,0.01,3,Cap: 30 pF  Total Derated Cap: 30 pF  VDC: 50 V  ESR: 0 Ω  Package: 0402  

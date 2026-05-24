@@ -1,0 +1,1 @@
+NMOS: https://www.lcsc.com/product-detail/C65189.html?spm=wm.fly.bg.2.xh___wm.mly.dhl.mly.5-7-1-2&lcsc_vid=TgRaXwYFFFkLVFNTElcNVVYEQFgIAQICFlZWV1ZUFQQxVlNRTlRXVFdTRFVYXzsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D
