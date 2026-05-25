@@ -12,3 +12,9 @@ PowerBox has 7 main compoments:
 5. An A 2S balance charger using the BQ2588RGER that can do 2A yippe
 
 
+dead ass i just recorded time lapse of me writing this and i clicked stop sharing and it disaapearerers
+
+# Logic
+
+As the ciruit can pull up to 36W I need more cells so that I don't create a bomb...
+But to charger the cells and do everything else at the same time I need 36W justifing the use of PD as regular 15W is not enough, is not even enough to charge a open macbook pluh
