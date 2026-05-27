@@ -2,3 +2,5 @@
 2. [[Ideal Diode]]
 3. [[Switch over controller]]
 4. [[Batt Charger]]
+5. [[BMS]]
+6. [[USBPD]]
