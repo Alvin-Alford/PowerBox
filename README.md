@@ -7,7 +7,7 @@ PowerBox is my custom-designed PCB that handles USB-C Power Delivery input, dual
 ---
 
 ## Overview
-![[Notes/Images/PCB_Image.png]]
+![PCB_IMAGE](Notes/Images/PCB_Image.png)
 
 *PowerBox was built to power DIY cyberdecks and portable computing projects that need more juice than a standard battery banks can provide.*
 
