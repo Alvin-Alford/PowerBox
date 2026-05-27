@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BMS.md",
+                "file": "TPS54620.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BMS"
+              "title": "TPS54620"
             }
           }
         ],
@@ -287,14 +287,14 @@
   },
   "active": "66aeb27eb3259e02",
   "lastOpenFiles": [
-    "Parts list.md",
-    "BMS.md",
-    "USBPD.md",
-    "Batt Charger.md",
-    "create a link.md",
-    "Welcome.md",
     "Switch over controller.md",
+    "USBPD.md",
+    "TPS54620.md",
     "Ideal Diode.md",
-    "TPS54620.md"
+    "BMS.md",
+    "Batt Charger.md",
+    "Parts list.md",
+    "create a link.md",
+    "Welcome.md"
   ]
 }

@@ -1,1 +1,2 @@
-1. 
+1. https://www.lcsc.com/product-detail/C351410.html?spm=wm.gwc.xh.14.cbm___wm.sxq.ssl.gwc&lcsc_vid=RwJWUQZfQVQLA1MAFlddVlAEEgReUlQHQ1NbVl0EE1AxVlNRTllZVVxeRlNWUDsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D
+2. https://www.lcsc.com/product-detail/C20917.html?spm=wm.fly.bg.4.xh___wm.mly.dhl.mly.5-7-1-2&lcsc_vid=TgRaXwYFFFkLVFNTElcNVVYEQFgIAQICFlZWV1ZUFQQxVlNRTlRXVFdTRFVYXzsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D

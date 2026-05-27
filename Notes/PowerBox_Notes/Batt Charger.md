@@ -1,1 +1,5 @@
 1. Power Supply: https://www.lcsc.com/product-detail/C2847000.html?spm=wm.fly.bg.9.xh___wm.fly.dhl.mly.9-8-29&lcsc_vid=TgRaXwYFFFkLVFNTElcNVVYEQFgIAQICFlZWV1ZUFQQxVlNRTlRXVFdTRFVYXzsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D
+2. https://www.lcsc.com/product-detail/C2761614.html?spm=wm.gwc.xh.5.cbm___wm.sxq.ssl.gwc&lcsc_vid=RwJWUQZfQVQLA1MAFlddVlAEEgReUlQHQ1NbVl0EE1AxVlNRTllZVVxeRlNWUDsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D
+3. https://www.lcsc.com/product-detail/C3013385.html?spm=wm.gwc.xh.12.cbm___wm.sxq.ssl.gwc&lcsc_vid=RwJWUQZfQVQLA1MAFlddVlAEEgReUlQHQ1NbVl0EE1AxVlNRTllZVVxeRlNWUDsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D
+4. https://www.lcsc.com/product-detail/C435392.html?spm=wm.gwc.xh.13.cbm___wm.sxq.ssl.gwc&lcsc_vid=RwJWUQZfQVQLA1MAFlddVlAEEgReUlQHQ1NbVl0EE1AxVlNRTllZVVxeRlNWUDsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D
+5. 
