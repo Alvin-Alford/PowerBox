@@ -89,6 +89,12 @@ PowerBox/
 
 ---
 
+## Zine
+
+![ZINE](/Notes/Images/ZINE.png)
+
+---
+
 ## License
 
 See [LICENSE](./LICENSE) for details.
