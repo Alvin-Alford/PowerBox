@@ -2,5 +2,5 @@
 	(version 7)
 	(lib (name "Custom_Footprints") (type "KiCad") (uri "${KIPRJMOD}/Custom_Footprints.pretty") (options "") (descr ""))
 	(lib (name "Buck_TPS54620") (type "KiCad") (uri "${KIPRJMOD}/Buck_TPS54620.pretty") (options "") (descr ""))
-	(lib (name "BQ25887RGER") (type "KiCad") (uri "/Users/alvinalford/Documents/PowerBox/Parts/BQ25887RGER/BQ25887RGER/KiCADv6/footprints.pretty") (options "") (descr ""))
+	(lib (name "BQ25887RGER") (type "KiCad") (uri "${KIPRJMOD}/../Parts/BQ25887RGER/BQ25887RGER/KiCADv6/footprints.pretty") (options "") (descr ""))
 )
