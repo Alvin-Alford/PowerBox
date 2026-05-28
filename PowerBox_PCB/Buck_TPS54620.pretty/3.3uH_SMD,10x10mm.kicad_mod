@@ -7,7 +7,7 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "b6aaf774-edcb-40c9-9ba0-c5ed9b637a44")
+		(uuid "e6218f9d-f387-49e2-976d-6852bb6cad95")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 6 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "673740f5-0d47-41d8-b7ab-8d2cda76a449")
+		(uuid "86bfe39c-56f5-4eec-a92c-b84b83deb0db")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "edc6ceef-d648-4264-b3eb-02fc99c48361")
+		(uuid "27d40552-2f7e-4f1a-b8b3-eb016548aacb")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d864c4ad-cfc0-4b49-bb5b-df26778bf478")
+		(uuid "413a1b0a-36a0-4657-ab7b-dff03de22563")
 		(effects
 			(font
 				(size 1 1)
@@ -63,13 +63,13 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "2fad536f-05ed-4461-a9d0-6691da30fbea")
+		(uuid "d6b8b6a4-bddf-48dd-ad0b-f9a90df44b54")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 7.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "9b853b36-80ab-4c46-841f-bd5d74af14c1")
+		(uuid "b5531e63-2774-4ca5-8c62-a272369a5316")
 		(effects
 			(font
 				(size 1 1)
@@ -82,17 +82,17 @@
 		(size 4.2 1.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "5a9c3103-b680-4afb-9d02-e95ff0b04746")
+		(uuid "008c1785-cd00-4f38-8d34-e766aff465fe")
 	)
 	(pad "2" smd roundrect
 		(at 4 0 90)
 		(size 4.2 1.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "6f86c598-fdc8-463c-9ac2-b92cc5bd4bd4")
+		(uuid "916b28c2-3151-447d-8ada-df86876519ba")
 	)
 	(embedded_fonts no)
-	(model "/Users/alvinalford/Documents/PowerBox/Parts/Inductor - Part 1.step"
+	(model "${KIPRJMOD}/3D_files/Inductor - Part 1.step"
 		(offset
 			(xyz 0 0 0)
 		)

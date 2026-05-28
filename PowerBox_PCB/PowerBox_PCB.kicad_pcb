@@ -1515,7 +1515,7 @@
 			(uuid "3f58b831-5686-4e1d-96a4-b85dcba0a169")
 		)
 		(embedded_fonts no)
-		(model "/Users/alvinalford/Documents/PowerBox/Parts/TPS54620RHLR/RHL0014A.stp"
+		(model "${KIPRJMOD}/3D_files/RHL0014A.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1523,7 +1523,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -3527,7 +3527,7 @@
 			(uuid "f9bf6c68-70de-4fd9-84fb-675f0cc136e3")
 		)
 		(embedded_fonts no)
-		(model "/Users/alvinalford/Documents/PowerBox/Parts/TPS54620RHLR/RHL0014A.stp"
+		(model "${KIPRJMOD}/3D_files/RHL0014A.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3535,7 +3535,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -4663,7 +4663,7 @@
 			(uuid "680c09b2-fa1c-42c1-a2eb-880a599cc84a")
 		)
 		(embedded_fonts no)
-		(model "/Users/alvinalford/Documents/PowerBox/Parts/Inductor - Part 1.step"
+		(model "${KIPRJMOD}/3D_files/Inductor - Part 1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6547,7 +6547,7 @@
 			(uuid "4b134521-109a-4e55-b5b4-45fb7ce801b8")
 		)
 		(embedded_fonts no)
-		(model "/Users/alvinalford/Documents/PowerBox/Parts/HUSB238_002DD/DFN-10-3x3-0_5.STEP"
+		(model "${KIPRJMOD}/3D_files/DFN-10-3x3-0_5.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12631,7 +12631,7 @@
 			(uuid "c4971e27-3831-4154-8ffa-2e4416e742d9")
 		)
 		(embedded_fonts no)
-		(model "/Users/alvinalford/Documents/PowerBox/Parts/Inductor - Part 1.step"
+		(model "${KIPRJMOD}/3D_files/Inductor - Part 1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16525,7 +16525,7 @@
 			(uuid "db76cdbb-3efd-4f95-9a6d-9e9fc0e8b386")
 		)
 		(embedded_fonts no)
-		(model "/Users/alvinalford/Documents/PowerBox/Parts/BQ25887RGER/BQ25887RGER/RGE0024H.stp"
+		(model "${KIPRJMOD}/3D_files/RGE0024H.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21233,7 +21233,7 @@
 			(uuid "0bf04529-5c19-4cef-9d2b-95eb1016a549")
 		)
 		(embedded_fonts no)
-		(model "/Users/alvinalford/Documents/PowerBox/Parts/HRO TYPE-C-31-M-12.step"
+		(model "${KIPRJMOD}/3D_files/HRO TYPE-C-31-M-12.step"
 			(offset
 				(xyz -4.5 -5 0)
 			)
