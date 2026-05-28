@@ -6027,12 +6027,10 @@
 				)
 			)
 		)
-		(pad "1" thru_hole roundrect
+		(pad "1" smd roundrect
 			(at 0 0)
 			(size 2 2)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
 			(net "/Ideal_Diode/VOUT_IDEAL")
 			(pinfunction "PAD_1")
@@ -6549,6 +6547,17 @@
 			(uuid "4b134521-109a-4e55-b5b4-45fb7ce801b8")
 		)
 		(embedded_fonts no)
+		(model "/Users/alvinalford/Documents/PowerBox/Parts/HUSB238_002DD/DFN-10-3x3-0_5.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -0 -90)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
@@ -8800,12 +8809,10 @@
 				)
 			)
 		)
-		(pad "1" thru_hole roundrect
+		(pad "1" smd roundrect
 			(at 0 0)
 			(size 2 2)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
 			(net "GND")
 			(pinfunction "PAD_1")
@@ -11906,12 +11913,10 @@
 				)
 			)
 		)
-		(pad "1" thru_hole roundrect
+		(pad "1" smd roundrect
 			(at 0 0)
 			(size 2 2)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
 			(net "/Ideal_Diode/VOUT_IDEAL")
 			(pinfunction "PAD_1")
@@ -21613,12 +21618,10 @@
 				)
 			)
 		)
-		(pad "1" thru_hole roundrect
+		(pad "1" smd roundrect
 			(at 0 0)
 			(size 2 2)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
 			(net "GND")
 			(pinfunction "PAD_1")
