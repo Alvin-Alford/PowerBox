@@ -1328,6 +1328,87 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Custom_Symbols:Pad-2x2-ThroughHole"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 1.778 -0.762 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Custom_Footprints:PAD-2x2-ThroughHole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Pad-2x2-ThroughHole_1_1"
+				(pin input line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -1445,10 +1526,16 @@
 		)
 	)
 	(junction
-		(at 234.95 59.69)
+		(at 234.95 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "09a2cf6a-f670-4fc4-abd1-215276df665c")
+		(uuid "115e0206-f310-4987-b9ba-298c2108a52d")
+	)
+	(junction
+		(at 234.95 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "121bc62e-667f-4565-bb14-5aad1be5defa")
 	)
 	(junction
 		(at 170.18 121.92)
@@ -1529,12 +1616,6 @@
 		(uuid "b4c42462-b263-44af-8414-386c2319d061")
 	)
 	(junction
-		(at 234.95 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bcf71698-8cb6-4f96-87e5-d6fb19a3c3c6")
-	)
-	(junction
 		(at 64.77 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1545,6 +1626,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c67b52a1-8328-4fb7-aba2-b93fb92a1de2")
+	)
+	(wire
+		(pts
+			(xy 234.95 58.42) (xy 234.95 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05ada314-3ead-4674-a60b-af6ddd1ba1d3")
 	)
 	(wire
 		(pts
@@ -1708,7 +1799,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 46.99) (xy 234.95 57.15)
+			(xy 234.95 46.99) (xy 234.95 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1748,16 +1839,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 59.69) (xy 234.95 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5af14e39-77a0-4701-95b7-a1796fde9eaf")
-	)
-	(wire
-		(pts
 			(xy 144.78 106.68) (xy 144.78 114.3)
 		)
 		(stroke
@@ -1775,6 +1856,16 @@
 			(type default)
 		)
 		(uuid "638292f6-c7d3-4364-bee2-824d76f0f985")
+	)
+	(wire
+		(pts
+			(xy 234.95 60.96) (xy 234.95 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c77fef2-5e6b-4b0a-b9e2-c7f6033a3b50")
 	)
 	(wire
 		(pts
@@ -1935,16 +2026,6 @@
 			(type default)
 		)
 		(uuid "b44b451f-2eac-45eb-b6ee-110665090ed3")
-	)
-	(wire
-		(pts
-			(xy 234.95 57.15) (xy 234.95 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b69d9b75-369b-40ce-90ae-3f435212caaf")
 	)
 	(wire
 		(pts
@@ -2476,8 +2557,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Custom_Symbols:1kRes")
-		(at 152.4 33.02 270)
+		(lib_id "Custom_Symbols:Pad-2x2-ThroughHole")
+		(at 237.49 58.42 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2486,9 +2567,87 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "1fb508ed-0ba8-4fa9-a683-29671f854102")
+		(property "Reference" "TP18"
+			(at 238.76 58.4199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 237.49 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom_Footprints:PAD-2x2-ThroughHole"
+			(at 237.49 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fc178f79-c6b6-4734-bdfa-d6a4d1ea5146")
+		)
+		(instances
+			(project "PowerBox_PCB"
+				(path "/b0254e12-8cc0-427f-8cea-8f6ec8f66525"
+					(reference "TP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_Symbols:1kRes")
+		(at 152.4 33.02 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "2a0e5f4e-9267-49e7-97db-72796ff0facd")
 		(property "Reference" "R18"
-			(at 153.6701 35.56 0)
+			(at 153.6701 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2499,7 +2658,7 @@
 			)
 		)
 		(property "Value" "1kΩ"
-			(at 151.1301 35.56 0)
+			(at 151.1301 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2786,84 +2945,6 @@
 			(project "PowerBox_PCB"
 				(path "/b0254e12-8cc0-427f-8cea-8f6ec8f66525"
 					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Custom_Symbols:Pad-2x2")
-		(at 237.49 57.15 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ffad4c8-d6ed-4635-b553-45131fc3caf7")
-		(property "Reference" "TP6"
-			(at 238.76 57.1499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" ""
-			(at 237.49 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Custom_Footprints:PAD-2x2"
-			(at 237.49 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 237.49 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b1002ea9-3da0-4d8d-80e4-70bb4277eed6")
-		)
-		(instances
-			(project "PowerBox_PCB"
-				(path "/b0254e12-8cc0-427f-8cea-8f6ec8f66525"
-					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -3766,6 +3847,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Custom_Symbols:Pad-2x2-ThroughHole")
+		(at 237.49 60.96 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d05ba28-ab16-40ea-b293-c2ee870d22c5")
+		(property "Reference" "TP19"
+			(at 238.76 60.9599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 237.49 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom_Footprints:PAD-2x2-ThroughHole"
+			(at 237.49 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "11a5964d-a0e5-40a3-a528-16ec830bc31c")
+		)
+		(instances
+			(project "PowerBox_PCB"
+				(path "/b0254e12-8cc0-427f-8cea-8f6ec8f66525"
+					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 215.9 120.65 0)
 		(unit 1)
@@ -4235,6 +4394,7 @@
 	(symbol
 		(lib_id "Custom_Symbols:10kRes")
 		(at 119.38 85.09 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4242,10 +4402,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b88a92d7-a4c7-4c49-ba23-37ce5c0387f7")
 		(property "Reference" "R17"
-			(at 121.92 83.8199 0)
+			(at 116.84 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4256,7 +4415,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 121.92 86.3599 0)
+			(at 116.84 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4473,6 +4632,7 @@
 	(symbol
 		(lib_id "Custom_Symbols:LED")
 		(at 160.02 33.02 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4480,10 +4640,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c4f5d7f3-7c23-4ecf-979f-cc7256ca9f46")
 		(property "Reference" "L3"
-			(at 159.7026 36.83 90)
+			(at 159.7026 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4494,7 +4653,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 157.1626 36.83 90)
+			(at 157.1626 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4781,84 +4940,6 @@
 			(project "PowerBox_PCB"
 				(path "/b0254e12-8cc0-427f-8cea-8f6ec8f66525"
 					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Custom_Symbols:Pad-2x2")
-		(at 237.49 59.69 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3f942b0-1c51-44be-a8bd-cd038b740403")
-		(property "Reference" "TP8"
-			(at 238.76 59.6899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" ""
-			(at 237.49 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Custom_Footprints:PAD-2x2"
-			(at 237.49 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 237.49 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "819c92cb-b314-43e1-8af3-1ffdc6dc4472")
-		)
-		(instances
-			(project "PowerBox_PCB"
-				(path "/b0254e12-8cc0-427f-8cea-8f6ec8f66525"
-					(reference "TP8")
 					(unit 1)
 				)
 			)

@@ -1700,6 +1700,7 @@
 	(symbol
 		(lib_id "Custom_Symbols:0.1uF")
 		(at 144.78 80.01 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1707,10 +1708,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "de85696d-e699-4bed-9dea-05db446a9cc2")
 		(property "Reference" "C21"
-			(at 148.59 78.7399 0)
+			(at 140.97 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1721,7 +1721,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 148.59 81.2799 0)
+			(at 140.97 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1864,6 +1864,7 @@
 	(symbol
 		(lib_id "Custom_Symbols:0.1uF")
 		(at 144.78 100.33 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1871,10 +1872,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eb357c21-6e14-4334-95db-368f2d031dbc")
 		(property "Reference" "C22"
-			(at 148.59 99.0599 0)
+			(at 140.97 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1885,7 +1885,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 148.59 101.5999 0)
+			(at 140.97 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

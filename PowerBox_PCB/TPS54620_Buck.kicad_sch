@@ -2973,6 +2973,7 @@
 	(symbol
 		(lib_id "Buck_TPS54620:30pF_Cap_0805")
 		(at 119.38 115.57 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2980,10 +2981,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "38844cda-3db4-4b2e-b408-c79c4c37c206")
 		(property "Reference" "C8"
-			(at 123.19 114.2999 0)
+			(at 116.586 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2994,7 +2994,7 @@
 			)
 		)
 		(property "Value" "30pF"
-			(at 123.19 116.8399 0)
+			(at 116.84 118.364 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3309,6 +3309,7 @@
 	(symbol
 		(lib_id "Buck_TPS54620:53.6kΩ_Res_0805")
 		(at 114.3 106.68 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3316,10 +3317,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7199afd0-953b-4557-ac4f-4e3623d252cb")
 		(property "Reference" "R5"
-			(at 116.84 105.4099 0)
+			(at 112.522 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3330,7 +3330,7 @@
 			)
 		)
 		(property "Value" "53.6kΩ"
-			(at 116.84 107.9499 0)
+			(at 112.522 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3656,10 +3656,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "86e153f5-9221-4894-9388-ac6d325e45ac")
 		(property "Reference" "C7"
-			(at 120.65 90.17 90)
+			(at 120.65 94.488 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3669,7 +3668,7 @@
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 120.65 92.71 90)
+			(at 124.714 99.314 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3740,10 +3739,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8bc4f57b-c6c6-4da9-9ff9-8808b64066ca")
 		(property "Reference" "C5"
-			(at 85.09 91.4399 0)
+			(at 80.264 89.408 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3754,7 +3752,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 85.09 93.9799 0)
+			(at 82.296 89.408 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3912,10 +3910,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9572a5e6-1816-4962-b704-5cc640ad918d")
 		(property "Reference" "C6"
-			(at 80.01 91.4399 0)
+			(at 75.184 89.408 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3926,7 +3923,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 80.01 93.9799 0)
+			(at 77.216 89.408 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4166,10 +4163,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d12d71f8-0983-4b00-b550-39738a4ca405")
 		(property "Reference" "C4"
-			(at 90.17 91.4399 0)
+			(at 85.344 89.408 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4180,7 +4176,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 90.17 93.9799 0)
+			(at 87.376 89.408 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4338,10 +4334,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dbc744a4-d784-4b4f-bb7e-2d2283429224")
 		(property "Reference" "C3"
-			(at 97.79 91.4399 0)
+			(at 92.964 89.662 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4352,7 +4347,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 97.79 93.9799 0)
+			(at 95.25 89.662 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4424,7 +4419,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dc9f3a33-e2c7-40f5-b4f9-02ad290488ab")
 		(property "Reference" "#PWR04"
 			(at 116.84 104.14 0)
@@ -4438,7 +4432,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 102.87 0)
+			(at 116.84 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4506,7 +4500,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f09db7ad-874e-444e-a55c-79a0baa1c16f")
 		(property "Reference" "#PWR03"
 			(at 114.3 116.84 0)
@@ -4520,7 +4513,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 115.57 0)
+			(at 114.3 113.792 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4588,10 +4581,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f71e74ea-5ec9-427b-bce8-f371324f3aa7")
 		(property "Reference" "C1"
-			(at 158.75 80.01 90)
+			(at 163.83 86.868 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4601,7 +4593,7 @@
 			)
 		)
 		(property "Value" "100nf"
-			(at 158.75 82.55 90)
+			(at 162.814 89.154 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4665,6 +4657,7 @@
 	(symbol
 		(lib_id "Buck_TPS54620:52.3kΩ_Res_0805")
 		(at 176.53 88.9 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4672,10 +4665,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f71f82fa-0cb5-47ea-adeb-2338a036024d")
 		(property "Reference" "R1"
-			(at 179.07 87.6299 0)
+			(at 173.99 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4686,7 +4678,7 @@
 			)
 		)
 		(property "Value" "52.3kΩ"
-			(at 179.07 90.1699 0)
+			(at 173.99 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
