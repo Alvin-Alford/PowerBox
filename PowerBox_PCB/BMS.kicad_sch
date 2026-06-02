@@ -21,8 +21,8 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "AO3400A"
+				(at 6.604 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -305,8 +305,8 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "DW01A"
+				(at 0 -6.858 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1208,10 +1208,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "04a666f8-aaa5-4af1-b394-19e25aada859")
 		(property "Reference" "U13"
-			(at 165.1 90.17 90)
+			(at 165.1 89.408 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1220,8 +1219,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 165.1 86.36 0)
+		(property "Value" "AO3400A"
+			(at 165.1 91.186 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1291,7 +1290,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3b91aaff-71d7-4a57-8095-55bf57e5f457")
 		(property "Reference" "U16"
 			(at 165.1 110.49 90)
@@ -1303,8 +1301,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 165.1 106.68 0)
+		(property "Value" "AO3400A"
+			(at 165.1 112.776 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1385,8 +1383,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 157.48 96.52 0)
+		(property "Value" "DW01A"
+			(at 157.48 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1956,7 +1954,7 @@
 		(dnp no)
 		(uuid "ed4eda27-dfde-4cd4-aae2-fe07dbcafb51")
 		(property "Reference" "U14"
-			(at 175.26 90.17 90)
+			(at 175.26 89.408 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1965,8 +1963,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 175.26 86.36 0)
+		(property "Value" "AO3400A"
+			(at 175.26 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2047,8 +2045,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 157.48 76.2 0)
+		(property "Value" "DW01A"
+			(at 157.48 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2139,8 +2137,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 175.26 106.68 0)
+		(property "Value" "AO3400A"
+			(at 175.26 112.522 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

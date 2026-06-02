@@ -1227,8 +1227,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "TPS54620"
+			(at -0.508 13.716 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1271,7 +1271,7 @@
 			)
 		)
 		(property "Manufacturer Part" "TPS54620RHLR"
-			(at 0 0 0)
+			(at 0.254 -20.574 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)

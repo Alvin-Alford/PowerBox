@@ -18,8 +18,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "AO3400A"
+			(at 6.604 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -302,7 +302,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "DTDP-PADS"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -419,8 +419,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "DW01A"
+			(at 0 -6.858 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

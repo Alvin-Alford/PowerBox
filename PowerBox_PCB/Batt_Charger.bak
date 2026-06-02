@@ -1112,7 +1112,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "LM1084RS-5.0"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

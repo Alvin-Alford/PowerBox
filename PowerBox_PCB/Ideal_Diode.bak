@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -227,6 +227,18 @@
 					(type none)
 				)
 			)
+			(polyline
+				(pts
+					(xy 1.27 2.54) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
 		(symbol "PMOS_1_1"
 			(pin input line
@@ -248,9 +260,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 -5.08 90)
+				(at 0 5.08 270)
 				(length 2.54)
-				(name "S"
+				(name "D"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -266,7 +278,25 @@
 				)
 			)
 			(pin passive line
-				(at 0 5.08 270)
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 1.27 5.08 270)
 				(length 2.54)
 				(name "D"
 					(effects
@@ -275,7 +305,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -302,8 +332,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "MMBT3906LT1G"
+			(at 9.652 -1.016 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

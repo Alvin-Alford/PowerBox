@@ -18,8 +18,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "DMP6023LE-13"
+			(at 10.16 -1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -332,8 +332,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "MMBT3906LT1G"
+			(at 9.652 -1.016 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

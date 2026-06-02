@@ -18,8 +18,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "HUSB238_002DD"
+			(at 0 -12.192 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29,7 +29,7 @@
 			)
 		)
 		(property "Footprint" "Custom_Footprints:DFN-10_L3.0-W3.0-P0.50-BL-EP2.5"
-			(at 0 0 0)
+			(at -2.032 -13.716 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -40,7 +40,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/HUSB238_002DD/8528237.html"
-			(at 0 0 0)
+			(at -2.032 -13.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -62,7 +62,7 @@
 			)
 		)
 		(property "Manufacturer Part" "HUSB238_002DD"
-			(at 0 0 0)
+			(at 0 8.636 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -73,7 +73,7 @@
 			)
 		)
 		(property "Manufacturer" "Hynetek(慧能泰)"
-			(at 0 0 0)
+			(at -5.842 -16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -106,7 +106,7 @@
 			)
 		)
 		(property "LCSC Part Name" "USB Type-C PD受电端控制芯片"
-			(at 0 0 0)
+			(at -6.35 -11.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
