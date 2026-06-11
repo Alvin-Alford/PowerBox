@@ -4061,8 +4061,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "AMS1117-3.3"
+			(at 0 -7.874 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

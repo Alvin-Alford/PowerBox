@@ -393,7 +393,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Buck_TPS54620:3.3uH_SMD,10x10mm"
+			(property "Footprint" "Buck_TPS54620:IND-SMD_L8.5-W8.0_PSPMAA0803H-330M-ANP"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -865,7 +865,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Buck_TPS54620:47uF_Cap_0805"
+		(symbol "Buck_TPS54620:47uF_Cap_1210"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -891,7 +891,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -924,7 +924,7 @@
 					)
 				)
 			)
-			(symbol "47uF_Cap_0805_0_1"
+			(symbol "47uF_Cap_1210_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -950,7 +950,7 @@
 					)
 				)
 			)
-			(symbol "47uF_Cap_0805_1_1"
+			(symbol "47uF_Cap_1210_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -2918,7 +2918,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Buck_TPS54620:3.3uH_SMD,10x10mm"
+		(property "Footprint" "Buck_TPS54620:IND-SMD_L8.5-W8.0_PSPMAA0803H-330M-ANP"
 			(at 168.91 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3051,92 +3051,6 @@
 				)
 				(path "/b0254e12-8cc0-427f-8cea-8f6ec8f66525/ba8d25d8-5959-48f3-8926-1c1b4d717b71"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Buck_TPS54620:47uF_Cap_0805")
-		(at 185.42 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "580c96d4-7d84-4824-8a00-7d2a20380dd7")
-		(property "Reference" "C2"
-			(at 189.23 91.4399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47uF"
-			(at 189.23 93.9799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 185.42 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 185.42 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "69173460-c42e-4b8a-89ba-b43c842a04e7")
-		)
-		(pin "1"
-			(uuid "343b5c87-f5c9-41db-8fd0-e924fa518552")
-		)
-		(instances
-			(project "PowerBox_PCB"
-				(path "/b0254e12-8cc0-427f-8cea-8f6ec8f66525/95341a3d-fa0d-4381-83e3-fd64358ddeb4"
-					(reference "C18")
-					(unit 1)
-				)
-				(path "/b0254e12-8cc0-427f-8cea-8f6ec8f66525/ba8d25d8-5959-48f3-8926-1c1b4d717b71"
-					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -4148,6 +4062,92 @@
 				)
 				(path "/b0254e12-8cc0-427f-8cea-8f6ec8f66525/ba8d25d8-5959-48f3-8926-1c1b4d717b71"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Buck_TPS54620:47uF_Cap_1210")
+		(at 185.42 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4af28dc-373a-40c5-8346-36822a48c48a")
+		(property "Reference" "C19"
+			(at 189.23 91.4399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uF"
+			(at 189.23 93.9799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 185.42 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "70b84bfb-a655-4de8-98ba-256e1ecdb974")
+		)
+		(pin "1"
+			(uuid "006b67f1-eee2-4ea9-be30-dd8abd31ce20")
+		)
+		(instances
+			(project "PowerBox_PCB"
+				(path "/b0254e12-8cc0-427f-8cea-8f6ec8f66525/95341a3d-fa0d-4381-83e3-fd64358ddeb4"
+					(reference "C23")
+					(unit 1)
+				)
+				(path "/b0254e12-8cc0-427f-8cea-8f6ec8f66525/ba8d25d8-5959-48f3-8926-1c1b4d717b71"
+					(reference "C19")
 					(unit 1)
 				)
 			)
