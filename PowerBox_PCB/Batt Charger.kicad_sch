@@ -876,136 +876,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Batt_Charger:LM1084RS-5.0"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LM1084RS-5.0"
-				(at 0 -5.588 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LM1084RS-5.0_0_1"
-				(rectangle
-					(start -5.08 2.54)
-					(end 5.08 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LM1084RS-5.0_1_1"
-				(pin passive line
-					(at -7.62 1.27 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -7.62 -1.27 0)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Buck_TPS54620:47uF_Cap_1210"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2727,12 +2597,6 @@
 		(uuid "b7b3b1c3-d4a9-4de1-9972-ca62e451d8b9")
 	)
 	(junction
-		(at 180.34 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf94f6ca-389a-42ee-b4af-5937fe9f4e68")
-	)
-	(junction
 		(at 175.26 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2819,16 +2683,6 @@
 			(type default)
 		)
 		(uuid "2536ca77-531c-48c1-857c-3c2a144c0198")
-	)
-	(wire
-		(pts
-			(xy 189.23 76.2) (xy 189.23 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29462929-ab5c-4072-851c-ce4d64dbf01c")
 	)
 	(wire
 		(pts
@@ -2919,16 +2773,6 @@
 			(type default)
 		)
 		(uuid "62cb83e9-fbd5-41da-abac-a4e1afa2d3b0")
-	)
-	(wire
-		(pts
-			(xy 180.34 73.66) (xy 189.23 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62eb7250-088f-4581-9495-c30836d9f263")
 	)
 	(wire
 		(pts
@@ -3232,7 +3076,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 78.74) (xy 187.96 78.74)
+			(xy 187.96 78.74) (xy 194.31 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3374,7 +3218,7 @@
 	)
 	(hierarchical_label "BAT_CHARGER_VIN"
 		(shape input)
-		(at 204.47 77.47 0)
+		(at 194.31 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5057,88 +4901,6 @@
 			(project "PowerBox_PCB"
 				(path "/b0254e12-8cc0-427f-8cea-8f6ec8f66525/da3152ce-e99b-41cb-8d30-a5dc30414d8e"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Batt_Charger:LM1084RS-5.0")
-		(at 196.85 77.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b63547b2-8d77-4603-9061-fafa06c7c8ee")
-		(property "Reference" "U18"
-			(at 196.85 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM1084RS-5.0"
-			(at 196.85 70.358 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
-			(at 196.85 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 196.85 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b5d9378b-3024-43a8-bbed-3d5aefc43aab")
-		)
-		(pin "2"
-			(uuid "3ca00ef4-0466-4640-81de-acd75d0b7ab3")
-		)
-		(pin "3"
-			(uuid "ae34084b-404c-4f8a-926a-09a34360670d")
-		)
-		(instances
-			(project "PowerBox_PCB"
-				(path "/b0254e12-8cc0-427f-8cea-8f6ec8f66525/da3152ce-e99b-41cb-8d30-a5dc30414d8e"
-					(reference "U18")
 					(unit 1)
 				)
 			)

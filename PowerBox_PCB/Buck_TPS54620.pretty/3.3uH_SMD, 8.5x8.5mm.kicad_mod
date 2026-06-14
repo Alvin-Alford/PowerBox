@@ -1,4 +1,4 @@
-(footprint "3.3uH_SMD,10x10mm"
+(footprint "3.3uH_SMD, 8.5x8.5mm"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
@@ -7,23 +7,11 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "e6218f9d-f387-49e2-976d-6852bb6cad95")
+		(uuid "af19e8d2-f5c5-4195-b48e-0c329d7d5082")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.1)
-			)
-		)
-	)
-	(property "Value" "3.3uH_SMD,10x10mm"
-		(at 0 6 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "86bfe39c-56f5-4eec-a92c-b84b83deb0db")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -32,7 +20,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "27d40552-2f7e-4f1a-b8b3-eb016548aacb")
+		(uuid "114edb66-6fc4-4f8d-acde-5b5a15f71e54")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +33,19 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "413a1b0a-36a0-4657-ab7b-dff03de22563")
+		(uuid "716cf2a1-0d50-477e-80ec-50de859c00bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "3.3uH_SMD,10x10mm"
+		(at 0 6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "48bdd173-4dac-4f9c-833f-37372f4ab90e")
 		(effects
 			(font
 				(size 1 1)
@@ -63,13 +63,13 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "d6b8b6a4-bddf-48dd-ad0b-f9a90df44b54")
+		(uuid "c2762bcf-2382-4d69-8dc6-04282f745396")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 7.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "b5531e63-2774-4ca5-8c62-a272369a5316")
+		(uuid "2baf7d15-efd4-44b1-b94b-49e40dc9d7ec")
 		(effects
 			(font
 				(size 1 1)
@@ -82,14 +82,28 @@
 		(size 4.2 1.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "008c1785-cd00-4f38-8d34-e766aff465fe")
+		(uuid "59d99e05-0a11-4ab3-a410-b4a08e62eff7")
 	)
 	(pad "2" smd roundrect
 		(at 4 0 90)
 		(size 4.2 1.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "916b28c2-3151-447d-8ada-df86876519ba")
+		(uuid "ebc5456e-0344-4be0-9a89-e295dc64b0d2")
+	)
+	(pad "3" smd roundrect
+		(at -3.45 16)
+		(size 2.4 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "5b3b4f7e-a3f9-4cff-8422-bfc0cbe1ca04")
+	)
+	(pad "3" smd roundrect
+		(at 2 16)
+		(size 2.4 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "47eec16e-491a-4b10-b15d-feb96cbb3f6e")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3D_files/Inductor - Part 1.step"

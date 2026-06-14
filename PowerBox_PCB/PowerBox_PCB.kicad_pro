@@ -519,7 +519,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "/Users/alvinalford/Documents/PowerBox/Output/gerbers2",
+      "plot": "/Users/alvinalford/Documents/PowerBox/Output/gerbers5",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -643,7 +643,7 @@
         "uuid": "b0254e12-8cc0-427f-8cea-8f6ec8f66525"
       }
     ],
-    "used_designators": "L6,C2,C18-19,C23,#PWR43,TP18-19,U12,U19,U21-23,R21,R25-30",
+    "used_designators": "R26-27",
     "variants": []
   },
   "sheets": [
